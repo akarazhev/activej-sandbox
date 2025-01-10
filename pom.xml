@@ -15,6 +15,7 @@
         <activej.version>6.0-rc2</activej.version>
         <logback.version>1.5.15</logback.version>
         <mustache.version>0.9.14</mustache.version>
+        <jparsec.version>3.1</jparsec.version>
     </properties>
 
     <dependencies>
@@ -26,6 +27,16 @@
         <dependency>
             <groupId>io.activej</groupId>
             <artifactId>activej-eventloop</artifactId>
+            <version>${activej.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jparsec</groupId>
+            <artifactId>jparsec</artifactId>
+            <version>${jparsec.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.activej</groupId>
+            <artifactId>activej-codegen</artifactId>
             <version>${activej.version}</version>
         </dependency>
         <dependency>
