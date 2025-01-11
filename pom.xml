@@ -30,6 +30,11 @@
             <version>${activej.version}</version>
         </dependency>
         <dependency>
+            <groupId>io.activej</groupId>
+            <artifactId>activej-datastream</artifactId>
+            <version>${activej.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.jparsec</groupId>
             <artifactId>jparsec</artifactId>
             <version>${jparsec.version}</version>
